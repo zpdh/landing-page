@@ -5,6 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 ul {
@@ -17,9 +18,19 @@ a {
     text-decoration: none;
 }
 
+button {
+    background-color: #B7B7A4;
+    border-radius: 8px;
+    padding: 6px 24px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .part1 {
     background-color: #283618;
-    padding: 16px 56px;
+    padding: 32px 128px;
+    margin: 0;
 }
 
 .part2 {
@@ -43,4 +54,68 @@ footer {
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: auto;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F0EFEB;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+    color: #D4D4D4;
+}
+
+.title {
+    color: #F0EFEB;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #D4D4D4;
+}
+
+.infotitle {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #151d0d;
+    text-align: center;
+}
+
+.description {
+    font-size: 18px;
+    color: #1b2511;
+}
+
+.image {
+    border: 4px solid #2B9348;
+    border-radius: 4px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quotewriter {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.product {
+    background-color: #F0EFEB;
+    padding: 128px;
+}
+
+.productbox {
+    background-color: #2B9348;
+    border-radius: 8px;
+    padding: 32px;
 }
