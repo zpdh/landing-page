@@ -16,6 +16,8 @@ ul {
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #D4D4D4;
 }
 
 button {
@@ -25,11 +27,17 @@ button {
     border: none;
     font-weight: bold;
     font-size: 18px;
+    margin-top: 20px;
+}
+
+.button {
+    color: #000;
 }
 
 .part1 {
     background-color: #283618;
-    padding: 32px 128px;
+    padding: 64px 160px;
+    padding-top: 16px;
     margin: 0;
 }
 
@@ -39,6 +47,8 @@ button {
 
 .quote {
     background-color: #B7B7A4;
+    text-align: center;
+    padding: 64px;
 }
 
 footer {
@@ -49,12 +59,13 @@ footer {
     align-items: center;
     justify-content: center;
     color: white;
+    padding: 12px;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: auto;
+    margin-bottom: 80px;
 }
 
 .logo {
@@ -66,19 +77,40 @@ footer {
 .links {
     display: flex;
     gap: 16px;
-    font-size: 18px;
-    color: #D4D4D4;
+}
+
+.main {
+    display: flex;
+}
+
+.maintext {
+    width: 600px;
 }
 
 .title {
     color: #F0EFEB;
     font-size: 48px;
     font-weight: bolder;
+    margin: 0;
+    margin-bottom: 8px;
 }
 
 .subtext {
     font-size: 18px;
     color: #D4D4D4;
+    margin-top: 0;
+    margin-left: 4px;
+}
+
+.signup {
+    display: flex;
+}
+
+.mainimg {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    align-self: flex-end;
 }
 
 .infotitle {
@@ -86,6 +118,21 @@ footer {
     font-weight: bolder;
     color: #151d0d;
     text-align: center;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: row;
+    padding: 90px;
+    padding-top: 40px;
+    padding-bottom: 128px;
+    text-align: center;
+    justify-content: center;
+}
+
+.box {
+    max-width: 200px;
+    margin: 32px;
 }
 
 .description {
@@ -107,6 +154,8 @@ footer {
 .quotewriter {
     font-weight: bold;
     font-size: 24px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .product {
@@ -118,4 +167,18 @@ footer {
     background-color: #2B9348;
     border-radius: 8px;
     padding: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
+
+.producttext {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.buybutton {
+    margin: 60px;
+}
+
